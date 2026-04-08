@@ -1,0 +1,32 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#110C0C"/>
+  <rect width="1200" height="630" fill="url(#paint0_radial_1_16)"/>
+  <rect x="54" y="54" width="1092" height="522" rx="34" fill="url(#paint1_linear_1_16)" fill-opacity="0.3"/>
+  <path d="M145 140H545" stroke="#E5C7CA" stroke-width="2"/>
+  <text x="145" y="240" fill="#F6F0EC" font-family="Open Sans, Arial, sans-serif" font-size="74" font-weight="700" letter-spacing="-2.4">
+    Cavaleer
+  </text>
+  <text x="145" y="308" fill="#E5C7CA" font-family="Open Sans, Arial, sans-serif" font-size="24" letter-spacing="5.2">
+    PREMIUM LEATHER GOODS AND EQUESTRIAN ACCESSORIES
+  </text>
+  <text x="145" y="408" fill="#F6F0EC" font-family="Open Sans, Arial, sans-serif" font-size="34" letter-spacing="-0.7">
+    Saddles. Bridles. Custom leatherwork.
+  </text>
+  <text x="145" y="456" fill="#CDB8B9" font-family="Open Sans, Arial, sans-serif" font-size="28" letter-spacing="-0.4">
+    Crafted for professionals, enthusiasts, and luxury buyers.
+  </text>
+  <rect x="772" y="104" width="292" height="422" rx="34" fill="#241A1A"/>
+  <path d="M821 381C857.732 334.122 914.112 306.286 973.668 306.286H999.529C1061.53 306.286 1118.9 336.343 1155.5 386.857L1171 408H806L821 381Z" fill="#8D675E"/>
+  <path d="M879 250C903.444 230.36 934.589 221.08 965.824 224.176L1016.8 229.229C1044.21 231.945 1066.89 251.889 1073.1 278.759L1104 411H867L879 250Z" fill="#E5C7CA"/>
+  <path d="M920 407H1079V475C1079 495.987 1061.99 513 1041 513H958C937.013 513 920 495.987 920 475V407Z" fill="#F6F0EC"/>
+  <defs>
+    <radialGradient id="paint0_radial_1_16" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1014 71) rotate(142.554) scale(693.934 756.12)">
+      <stop stop-color="#E5C7CA"/>
+      <stop offset="1" stop-color="#110C0C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="paint1_linear_1_16" x1="158" y1="90" x2="1034.5" y2="568.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6F0EC"/>
+      <stop offset="1" stop-color="#8D675E" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+</svg>
