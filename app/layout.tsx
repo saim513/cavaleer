@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 
-import { LocaleProvider } from "@/components/providers/locale-provider";
+import { site } from "@/lib/site-data";
 
 import "./globals.css";
 
@@ -12,33 +12,20 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.cavaleer.com"),
-  title: "Cavaleer | Leather Since 1978",
-  description:
-    "Discover premium leather collections, saddles, bridles, and custom equestrian accessories shaped by heritage craftsmanship since 1978.",
+  metadataBase: new URL("https://www.cavaleer.nl"),
+  title: site.title,
+  description: site.description,
   openGraph: {
-    title: "Cavaleer | Leather Since 1978",
-    description:
-      "Premium saddles, bridles, leather accessories, and custom equestrian goods crafted for performance, longevity, and heritage appeal.",
-    url: "https://www.cavaleer.com",
-    siteName: "Cavaleer",
-    images: [
-      {
-        url: "/images/og-cavaleer.svg",
-        width: 1200,
-        height: 630,
-        alt: "Cavaleer premium leather goods and equestrian accessories",
-      },
-    ],
-    locale: "en_US",
+    title: site.title,
+    description: site.description,
     type: "website",
+    url: "https://www.cavaleer.nl",
+    siteName: site.name,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cavaleer | Leather Since 1978",
-    description:
-      "Luxury leather craftsmanship for equestrian professionals, enthusiasts, and premium retail partners.",
-    images: ["/images/og-cavaleer.svg"],
+    title: site.title,
+    description: site.description,
   },
 };
 
@@ -48,10 +35,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className="scroll-smooth" lang="en">
-      <body className={`${openSans.variable} font-sans antialiased`}>
-        <LocaleProvider>{children}</LocaleProvider>
-      </body>
+    <html lang="en">
+      <body className={`${openSans.variable} font-sans antialiased`}>{children}</body>
     </html>
   );
 }
