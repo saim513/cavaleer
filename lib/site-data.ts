@@ -54,7 +54,7 @@ export const productCategories: ProductCategory[] = [
       "Structured handbags, laptop bags, satchels, and weekenders designed for retail, travel, and private label collections.",
     intro:
       "Our bag collection brings together fashion-led silhouettes and practical carry formats with dependable leather finishing for wholesale buyers, retailers, and private label programs.",
-    image: "/images/category-ladies-bags.svg",
+    image: "/images/category_bag.png",
     products: [
       {
         slug: "amira-shoulder-bag",
@@ -77,7 +77,7 @@ export const productCategories: ProductCategory[] = [
           customization: "Logo embossing, lining changes, hardware colors",
           minimumOrder: "120 pieces",
         },
-        image: "/images/category-ladies-bags.svg",
+        image: "/images/category_bag.png",
       },
       {
         slug: "sana-crossbody",
@@ -100,7 +100,7 @@ export const productCategories: ProductCategory[] = [
           customization: "Custom strap lengths and private label branding",
           minimumOrder: "150 pieces",
         },
-        image: "/images/category-ladies-bags.svg",
+        image: "/images/category_bag.png",
       },
       {
         slug: "nura-tote",
@@ -123,7 +123,7 @@ export const productCategories: ProductCategory[] = [
           customization: "Packaging, embossing, and hardware options",
           minimumOrder: "100 pieces",
         },
-        image: "/images/category-ladies-bags.svg",
+        image: "/images/category_bag.png",
       },
       {
         slug: "adam-laptop-bag",
@@ -146,7 +146,7 @@ export const productCategories: ProductCategory[] = [
           customization: "Embossed logo, lining color, branded metal plate",
           minimumOrder: "80 pieces",
         },
-        image: "/images/category-gents-bags.svg",
+        image: "/images/category_bag.png",
       },
       {
         slug: "zaid-satchel",
@@ -169,7 +169,7 @@ export const productCategories: ProductCategory[] = [
           customization: "Logo embossing and custom strap hardware",
           minimumOrder: "120 pieces",
         },
-        image: "/images/category-gents-bags.svg",
+        image: "/images/category_bag.png",
       },
       {
         slug: "faris-weekender",
@@ -192,7 +192,7 @@ export const productCategories: ProductCategory[] = [
           customization: "Dust bag, hangtag, embossing, lining",
           minimumOrder: "60 pieces",
         },
-        image: "/images/category-gents-bags.svg",
+        image: "/images/category_bag.png",
       },
     ],
   },
@@ -203,7 +203,7 @@ export const productCategories: ProductCategory[] = [
       "Retail-ready leather belts with clean buckle programs and durable edge finishing.",
     intro:
       "Our belt collection is made for long-running leather assortments, balancing fit consistency, premium buckles, and dependable finish performance.",
-    image: "/images/category-belts.svg",
+    image: "/images/category_belts.png",
     products: [
       {
         slug: "atlas-classic-belt",
@@ -225,7 +225,7 @@ export const productCategories: ProductCategory[] = [
           customization: "Logo embossing and custom buckle finishes",
           minimumOrder: "250 pieces",
         },
-        image: "/images/category-belts.svg",
+        image: "/images/category_belts.png",
       },
       {
         slug: "mira-slim-belt",
@@ -247,7 +247,7 @@ export const productCategories: ProductCategory[] = [
           customization: "Length runs, branded packaging, hardware colors",
           minimumOrder: "220 pieces",
         },
-        image: "/images/category-belts.svg",
+        image: "/images/category_belts.png",
       },
       {
         slug: "crown-rider-belt",
@@ -269,7 +269,7 @@ export const productCategories: ProductCategory[] = [
           customization: "Embossing, buckle finish, keeper details",
           minimumOrder: "180 pieces",
         },
-        image: "/images/category-belts.svg",
+        image: "/images/category_belts.png",
       },
     ],
   },
@@ -280,7 +280,7 @@ export const productCategories: ProductCategory[] = [
       "Classic wallets and card holders with practical layouts and premium retail finishing.",
     intro:
       "Our wallet range is built around compact format discipline, leather consistency, and merchandising ease for high-turn accessories programs.",
-    image: "/images/category-wallets.svg",
+    image: "/images/category_wallets.png",
     products: [
       {
         slug: "tariq-bifold-wallet",
@@ -302,7 +302,7 @@ export const productCategories: ProductCategory[] = [
           customization: "Embossing, lining changes, branded box",
           minimumOrder: "300 pieces",
         },
-        image: "/images/category-wallets.svg",
+        image: "/images/category_wallets.png",
       },
       {
         slug: "zane-card-holder",
@@ -324,7 +324,7 @@ export const productCategories: ProductCategory[] = [
           customization: "Color blocking and branded packaging",
           minimumOrder: "350 pieces",
         },
-        image: "/images/category-wallets.svg",
+        image: "/images/category_wallets.png",
       },
       {
         slug: "safiya-zip-wallet",
@@ -346,7 +346,7 @@ export const productCategories: ProductCategory[] = [
           customization: "Branding, zip pull design, packaging",
           minimumOrder: "200 pieces",
         },
-        image: "/images/category-wallets.svg",
+        image: "/images/category_wallets.png",
       },
     ],
   },
@@ -357,7 +357,7 @@ export const productCategories: ProductCategory[] = [
       "Leather tack and rider accessories developed for stables, equestrian brands, and performance-led retail.",
     intro:
       "This category replaces outerwear-style product programs with a focused equestrian lineup built around rider performance, stable use, and premium leather finishing.",
-    image: "/images/category-equestrian.svg",
+    image: "/images/category_equestrian.png",
     products: [
       {
         slug: "bridle-workset",
@@ -379,7 +379,7 @@ export const productCategories: ProductCategory[] = [
           customization: "Brand embossing, strap colors, hardware finish",
           minimumOrder: "80 sets",
         },
-        image: "/images/category-equestrian.svg",
+        image: "/images/category_equestrian.png",
       },
       {
         slug: "arena-reins",
@@ -401,7 +401,7 @@ export const productCategories: ProductCategory[] = [
           customization: "Length, stitching color, branded details",
           minimumOrder: "120 pairs",
         },
-        image: "/images/category-equestrian.svg",
+        image: "/images/category_equestrian.png",
       },
       {
         slug: "stable-grooming-tote",
@@ -423,7 +423,7 @@ export const productCategories: ProductCategory[] = [
           customization: "Branding patches, trims, colorways",
           minimumOrder: "100 pieces",
         },
-        image: "/images/category-equestrian.svg",
+        image: "/images/category_equestrian.png",
       },
     ],
   },

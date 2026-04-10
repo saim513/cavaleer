@@ -114,7 +114,7 @@ export default function Home() {
                 className="h-full w-full object-cover"
                 fill
                 sizes="(min-width: 1024px) 40vw, 100vw"
-                src="/images/about-workshop.svg"
+                src="/images/about_us.png"
               />
             </div>
             <div>
