@@ -33,9 +33,9 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-stone-200 bg-white/95 backdrop-blur">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:gap-8 lg:px-8">
-        <Link className="flex items-center gap-3" href="/">
-          <span className="relative h-12 w-12 shrink-0">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-6 sm:py-4 lg:gap-8 lg:px-8">
+        <Link className="flex min-w-0 flex-1 items-center gap-3" href="/">
+          <span className="relative h-10 w-10 shrink-0 sm:h-12 sm:w-12">
             <Image
               alt={`${site.name} logo`}
               className="h-auto w-auto"
@@ -46,11 +46,12 @@ export function SiteHeader() {
               src="/icon.png"
             />
           </span>
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.32em] text-stone-500">
+          <div className="min-w-0">
+            <p className="truncate text-[0.7rem] font-semibold uppercase tracking-[0.28em] text-stone-500 sm:text-xs sm:tracking-[0.32em]">
               {site.name}
             </p>
-            <p className="text-sm text-stone-700">Leather Goods & Equestrian Accessories</p>
+            <p className="hidden text-sm text-stone-700 sm:block">Leather Goods & Equestrian Accessories</p>
+            <p className="text-sm text-stone-700 sm:hidden">Leather Goods</p>
           </div>
         </Link>
 
@@ -62,20 +63,20 @@ export function SiteHeader() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-3">
+        <div className="flex shrink-0 items-center gap-2 sm:gap-3">
           <div className="relative lg:hidden">
             <button
               aria-controls="mobile-navigation"
               aria-expanded={isMobileMenuOpen}
               aria-label={isMobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
-              className="flex cursor-pointer items-center justify-center rounded-full border border-stone-300 px-4 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-stone-950 transition hover:border-stone-950 hover:bg-stone-950 hover:text-white"
+              className="flex cursor-pointer items-center justify-center rounded-full border border-stone-300 px-3 py-2.5 text-xs font-semibold uppercase tracking-[0.18em] text-stone-950 transition hover:border-stone-950 hover:bg-stone-950 hover:text-white sm:px-4 sm:py-3 sm:text-sm"
               onClick={() => setIsMobileMenuOpen((open) => !open)}
               type="button"
             >
               Menu
             </button>
             <div
-              className={`absolute right-0 top-16 w-[min(22rem,calc(100vw-2rem))] rounded-[1.75rem] border border-stone-200 bg-white p-4 shadow-xl transition-all ${
+              className={`absolute right-0 top-[calc(100%+0.75rem)] z-50 w-[min(18rem,calc(100vw-2rem))] rounded-[1.5rem] border border-stone-200 bg-white p-3 shadow-xl transition-all sm:w-[min(22rem,calc(100vw-2rem))] sm:p-4 ${
                 isMobileMenuOpen
                   ? "pointer-events-auto visible translate-y-0 opacity-100"
                   : "pointer-events-none invisible -translate-y-2 opacity-0"
@@ -93,6 +94,13 @@ export function SiteHeader() {
                     {item.label}
                   </Link>
                 ))}
+                <Link
+                  className="inline-flex items-center justify-center rounded-2xl bg-stone-950 px-4 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition hover:bg-stone-800 sm:hidden"
+                  href="/contact"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Contact Us
+                </Link>
               </div>
             </div>
           </div>
@@ -103,7 +111,7 @@ export function SiteHeader() {
             {site.contact.email}
           </a>
           <Link
-            className="inline-flex items-center justify-center rounded-full bg-stone-950 px-5 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition hover:bg-stone-800"
+            className="hidden items-center justify-center rounded-full bg-stone-950 px-5 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition hover:bg-stone-800 sm:inline-flex"
             href="/contact"
           >
             Contact Us
